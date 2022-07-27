@@ -38,8 +38,8 @@ def hello():
 
 
 
-@app.route('/prediction_credit/<id_client>')
-def prediction_credit(id_client):
+@app.route('/credit/<id_client>')
+def credit(id_client):
 
     print('id client = ', id_client)
     
